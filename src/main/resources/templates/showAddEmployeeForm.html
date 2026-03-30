@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Add New Employee</title>
+</head>
+<body>
+<div align="center">
+<h2>Add New Employee Details</h2>
+<form method="post" action="/employee/addEmployeeSubmit">
+<table border="0" cellpadding="10">
+<tr><td align="right">User Name:</td><td
+align="left"><input type="text" name="userName"
+size="50"></input></td></tr>
+<tr><td align="right">Job Title:</td><td
+align="left"><input type="text" name="title"
+size="50"></input></td></tr>
+<tr><td align="right">Salary:</td><td
+align="left"><input type="text" name="salary"
+size="50"></input></td></tr>
+<tr><td align="right">Location:</td><td
+align="left"><input type="text" name="location"
+size="50"></input></td></tr>
+<tr><td align="right">Email:</td><td
+align="left"><input type="text" name="email"
+size="50"></input></td></tr>
+<tr><td align="right"></td><td align="left"><input
+type="submit" value="Submit"></input></td></tr>
+</table>
+</form>
+</div>
+</body>
+</html>
